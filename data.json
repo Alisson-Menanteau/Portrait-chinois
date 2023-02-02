@@ -1,0 +1,69 @@
+[
+    {
+      "analogie": "une\nchanson",
+      "id": "chanson",
+      "valeurAnalogie": "I FOLLOW RIVER (REMIX) DE LYKKE LI",
+      "description":"I follow river (The Magician remix) de Lykke Li est une chanson très significative pour moi car elle m'accompagne depuis maintenant plusieurs années. Elle représente à la fois la nostalgie, l'euphorie, la tristesse et l'accomplissement. Cette musique est un mélange de sensations, qui s'adapte à de nombreux moments de vie et qui les rend unique à chaque écoute. Elle symbolise parfaitement la pluralité d'un seul ressenti. J'associe l'oeuvre de Lykke Li à la couleur bleue qui incarne l'évasion, la découverte. Elle inspire la sérénité et le calme intérieur, ce qui me représente.",
+      "image": "ifollowriver.jpeg",
+      "class": "ifollowriver"
+    },
+  
+    {
+      "analogie": "un\nfilm",
+      "id": "film",
+      "valeurAnalogie": "MANGE PRIE AIME",
+      "description":
+        " ''Le seul endroit où l'esprit pourra trouver la paix, c'est à l'intérieur du silence du cœur.'' Après un divorce difficile, Liz Gilbert décide de prendre une année sabbatique et de changer de vie. Elle entame alors un périple initiatique qui va l’emmener au bout du monde et d’elle-même. L'oeuvre du réalisateur Ryan Murphy est une véritable épopée spirituelle, dans laquelle je m'identifie à Liz. La protagoniste se rend compte que sa vie ne lui convient plus, elle décide alors de partir vers différentes destinations afin de découvrir le monde, les autres, la spirutualité mais surtout elle-même. J'aime qu'elle soit indépendante et qu'elle n'ait pas peur de bousculer son quotidien pour devenir une femme acccomplie et savourer la vie simplement. ",
+      "image": "mangeprieaime.jpeg",
+      "class": "mangeprieaime"
+    },
+  
+    {
+      "analogie": "un\nanimé",
+      "id": "animé",
+      "valeurAnalogie": "LE VOYAGE DE CHIHIRO ",
+      "description":
+        "Chihiro, une fillette de 10 ans et sa famille font une halte dans un parc à thème qui leur paraît délabré. Lors de la visite, les parents s’arrêtent dans un des bâtiments pour déguster quelques mets très appétissants. Hélas, cette nourriture les transforme en porcs. Prise de panique, Chihiro s’enfuit et se retrouve seule dans cet univers fantasmagorique; elle rencontre alors l’énigmatique Haku, son seul allié dans cette terrible épreuve... Ce film d'animation de Hayao Miyazaki représente pour moi le passage de l'enfance à l'âge adulte. Lors de ce parcours, nous nous apercevons que nous devons nous débrouiller seuls sans l'aide de nos parents. Cette excursion n'est souvent pas sans embûches, comme nous pouvons le constater à travers le voyage de chihiro qui va être forcée à travailler, à fuir et à se cacher. Ce film me rappelle mon déménagement loin de me parents pour mes études.",
+      "image": "chihiro.jpg",
+      "class": "chateau"
+    },
+  {
+      "analogie": "une\nville",
+      "id": "ville",
+      "valeurAnalogie": "PARIS",
+      "description":
+        "Paris est pour moi la ville de tous les possibles. C'est une ville qui regorge d'art que ce soit par son architecture, ses monuments, ses musées, ses artistes, etc. J'aime son aspect cosmopolite et sa diversité. Je m'identifie à cette ville car elle est sans cesse en mouvement. On ne cesse jamais de la découvrir en raison de sa taille et de sa multitude de recoins, de rues, de boutiques, etc.",
+      "image": "paris2.jpg",
+      "class": "Paris"
+    },
+
+ {
+        "analogie": "une\nsérie",
+        "id": "série",
+        "valeurAnalogie": "FRIENDS",
+        "description":
+          "Friends est une série humoristique qui suit les péripéties de trois jeunes femmes et trois jeunes hommes new-yorkais liés par une profonde amitié. Entre amour, travail, famille, ils partagent leurs bonheurs et leurs soucis au Central Perk, leur café favori. Les personnages incarnent diverses valeurs auxquelles je m'identifie. Rachel symbolise l'ambition, Joey le rire, Chandler le sarcasme et Phoebe l'expression de soi. Cette série nous rappelle le sens de l'amitié, elle aborde des sujets profonds tout en légèreté et nous nous attachons très facilement aux personnages.",
+        "image": "friendcentral.jpg",
+        "class": "friends"
+      },
+
+      {
+        "analogie": "un\npeintre",
+        "id": "peintre",
+        "valeurAnalogie": "MAGRITTE",
+        "description":
+          "René Magritte est un peintre surréaliste belge. Connu pour ses toiles qui fonctionnent comme des rébus ou des métaphores. Il met en évidence, avec humour et poésie, notre difficulté à faire coïncider la réalité du monde avec nos images mentales. Ses oeuvres font écho à ma façon de faire passer un message par l'humour. Ses oeuvres paraissent légères en surface mais lorsque l'on creuse, elles sont en vérité très riches.",
+        "image": "magritte.jpg",
+        "class": "magritte"
+      },
+
+      {
+        "analogie": "un\nmoment\nde\nla\njournée",
+        "id": "moment",
+        "valeurAnalogie": "LA NUIT",
+        "description":
+          "La nuit symbolise pour moi le mystère, l'euphorie et l'authenticité. Lorsque le Soleil se couche, les sensations sont plus intenses et uniques. Le calme de la nuit me ressemble.",
+        "image": "nuit.jpg",
+        "class": "nuit"
+      }
+  ]

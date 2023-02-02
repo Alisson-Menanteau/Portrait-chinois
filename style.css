@@ -1,0 +1,478 @@
+/*police*/
+
+@font-face {
+    font-family:'aperçu';
+    src: url(./Kegisiko.woff2) format('woff2');
+    src: url(./Kegisiko.woff) format('woff');
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+   
+}
+
+/*animation*/
+
+@keyframes mouvement {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    50% {
+        transform: translateY(15px);
+    }
+      
+    100% {
+        transform: translateY(0px);
+    }
+  }
+
+/*tître*/
+
+h1 {
+    font-family: 'aperçu';
+    font-weight: 100;
+    color: #0b52b6;
+    position: relative; 
+    top: 80px;
+    font-size: 4rem;
+  
+}
+
+/* 
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+    
+}
+
+header {
+
+  background-image: url(./fond\ 1.jpeg);
+  height: 100vh;
+  
+   
+}
+
+/*flèche*/
+
+.arrowright {
+    color: #0554c4;
+    border: solid ;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: relative;
+     top: 80px;
+    background-color: #00000000;
+    width: auto;
+    border-radius: 0px;
+    
+}
+
+.arrowright:hover {
+
+    border: solid  #5fabf7;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+}
+
+/*popup*/
+
+.volet {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.popup{
+    position: fixed;
+    left: 80px;
+    right: 80px;
+    top: 60px;
+    bottom: 60px;
+    background-color: #fffffffa;
+    border: thick double #054cb0;
+    z-index: 300;
+   
+}
+
+.volet-visible {
+    display: flex;
+ 
+}
+
+.volet-invisible {
+    display: none;
+    
+}
+
+/*naviguation lien*/
+
+a {
+
+   font-family: 'Sofia Sans Extra Condensed', sans-serif;
+   display: inline;
+   width: fit-content;
+   text-decoration: none;
+   color: #0b52b6;
+   background-color: rgba(255, 255, 255, 0.653);
+   padding: 1px;
+   width: 1000px;
+   border: #0554c4;
+  }
+
+  a:hover {
+     color:  #5fabf7; 
+  }
+    
+  nav {
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+  }
+  
+/*aspect des liens dans ma nav*/
+
+  p {
+    font-size: 2em;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  }
+
+
+
+  img{
+    padding: unset;
+    margin: 35vh;
+    border: solid 150px rgb(255, 255, 255);
+    width: 1000px;
+    position: relative;
+    top: 1px;
+    right: 350px;
+    transition: 2s;
+    scroll-snap-align: center;
+  }
+
+ /*effet grandissant pour les images sauf celle de la maison*/ 
+
+  .ifollowriver img {
+    height: 800px;
+    padding: unset;
+    margin: none;
+    transition: 1s;
+    }
+
+  .ifollowriver img:hover {
+    height: 850px;
+    padding: unset;
+    margin: none;
+    transition: 1s;
+    }
+
+    .mangeprieaime img {
+        height: 800px;
+        padding: unset;
+        margin: none;
+        transition: 1s;
+        }
+    
+      .mangeprieaime img:hover {
+        height: 850px;
+        padding: unset;
+        margin: none;
+        transition: 1s;
+        }
+
+        .chateau img {
+            height: 800px;
+            padding: unset;
+            margin: none;
+            transition: 1s;
+            }
+        
+          .chateau img:hover {
+            height: 850px;
+            padding: unset;
+            margin: none;
+            transition: 1s;
+            }
+            .Paris img {
+                height: 800px;
+                padding: unset;
+                margin: none;
+                transition: 1s;
+                }
+            
+              .Paris img:hover {
+                height: 850px;
+                padding: unset;
+                margin: none;
+                transition: 1s;
+                }
+
+                .friends img {
+                    height: 800px;
+                    padding: unset;
+                    margin: none;
+                    transition: 1s;
+                    }
+                
+                  .friends img:hover {
+                    height: 850px;
+                    padding: unset;
+                    margin: none;
+                    transition: 1s;
+                    }
+
+                    .magritte img {
+                        height: 800px;
+                        padding: unset;
+                        margin: none;
+                        transition: 1s;
+                        }
+                    
+                      .magritte img:hover {
+                        height: 850px;
+                        padding: unset;
+                        margin: none;
+                        transition: 1s;
+                        }
+
+                        .nuit img {
+                            height: 800px;
+                            padding: unset;
+                            margin: none;
+                            transition: 1s;
+                            }
+                        
+                          .nuit img:hover {
+                            height: 850px;
+                            padding: unset;
+                            margin: none;
+                            transition: 1s;
+                            }
+
+/*tître si j'étais + description*/
+                            
+  h2 {
+       font-family: 'Sofia Sans Extra Condensed', sans-serif;
+       color: #000000;
+       background-color: white;
+       padding: 10px;
+       text-align: right;
+       width: 200px;
+       font-size: 1,99rem;
+     
+  }
+/*valeurAnalogie*/
+
+  h3 {
+    font-family: 'Bebas Neue', cursive;
+    background-color: white;
+    color: #000000;
+    padding: 10px;
+       text-align: left;
+       width: 350px;
+       
+    
+  }
+
+/*Mention légales*/
+
+   .mention {
+    text-align: center;
+    position: relative;
+    left: 600px;
+    color: #0554c4;
+    background-color: rgba(255, 255, 255, 0.532);
+    border-radius: 20px;
+    font-size: 2rem;
+    
+   }
+
+   .mention:hover {
+    color:  #5fabf7;
+    cursor: pointer;
+   }
+
+
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 400px;
+
+}
+
+.volet p {
+    margin: auto;
+}
+
+
+
+.liste-analogies div{
+    margin: 0;
+    display: flex;
+}
+
+
+.formulaire {
+    position: relative;
+    left: 525px;
+    width: 350px;
+    font-family:'Sofia Sans Extra Condensed', sans-serif;
+    color: #0554c4;
+    font-size: 2rem;
+    
+   
+}
+/*tître du formulaire */
+
+.titreanalogie {
+    position: relative;
+    left: 450px;
+    width: 500px;
+    margin-bottom: 100px;
+    animation: infinite 5s mouvement;
+}
+
+h4 {
+  font-family: 'aperçu';
+  font-size: 3rem;
+  color:#0555c4eb;
+  position: relative;
+  text-align: center;
+    right: 0,5px;
+    top: 80px;
+}
+
+/*analogie*/
+
+.si-jetais {
+text-align: left;
+position: relative;
+color: #0554c4;
+font-size: 1,95rem;
+right: 250px;
+width: 450px;
+top: 450px;
+}
+
+/*valeur analogie*/
+
+.reponse {
+
+font-family: 'Noto Serif Display', serif;
+position: relative;
+color: #0555c4;
+font-size: 3rem;
+right: 250px;
+width: 700px;
+top: 475px;
+
+}
+
+/*texte*/
+
+.description {
+    text-align: left;
+    position: relative;
+    top: 525px;
+    right: 250px;
+    color: #054db0;
+    width: 600px;
+}
+
+/*image maison*/
+
+.house{
+
+    width: 23%;
+    margin: 0;
+    border: none;
+    position: static;
+}
+
+/*légendes formulaires*/
+
+.legend {
+    text-align: left;
+    font-size: 3rem ;
+    color: #0555c4;
+  
+}
+
+/*encadrés formulaires*/
+
+.fieldset {
+    background-color: #ffffffbd;
+    border: solid 0px #0555c43f;
+}
+
+/*page bonus*/
+
+.bonus {
+   background-image: url(./fond\ 1.jpeg);
+   scroll-snap-align: center;
+}
+
+/*animation lien naviguation*/
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #0554c4;
+    padding: 10px 0;
+  }
+   
+  a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #0555c431;
+    transition: width 500ms ease;
+  }
+   
+  a:hover:after {
+    width: 100%;
+  }
+
+/*bouton envoyé*/
+
+.send {
+  font-size: 2rem;
+
+
+}
+
+  .send:hover {
+cursor: pointer;
+color: #5fabf7;
+font-size: 2rem;
+  }
