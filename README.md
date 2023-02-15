@@ -1,4 +1,4 @@
-mon site: https://etudiant.u-pem.fr/~alisson.menanteau/portrait-chinois/)
+mon site: (https://alisson-menanteau.github.io/Portrait-chinois/)
 
 Étapes pour installer mon site sur un serveur XAMPP:
 
